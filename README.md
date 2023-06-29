@@ -86,8 +86,7 @@ I will now be focusing on learning JS frameworks.
 - [Resizing svg images with viewBox attribute](https://css-tricks.com/scale-svg/) - This helped me a lot when I struggled with the logo image overflowing the container on smaller mobile screens
 
 ## Author
-- Frontend Mentor - [@@Lee145](https://www.frontendmentor.io/profile/Favour)
+- Frontend Mentor - [@Lee145](https://www.frontendmentor.io/profile/Favour)
 - Twitter - [@manlike_favour](https://www.twitter.com/Favour)
 
-- Frontend Mentor - [@AgataLiberska](https://www.frontendmentor.io/profile/AgataLiberska)
-- Twitter - [@AgataLiberska](https://www.twitter.com/AgataLiberska)
+
