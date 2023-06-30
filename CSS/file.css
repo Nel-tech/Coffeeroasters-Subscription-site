@@ -12,9 +12,11 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: center;
-  gap: 39rem;
-  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 70px;
+  margin-left: 70px;
+  padding-right: 10px;
   align-items: center;
   padding-top: 1rem;
   position: relative;
@@ -334,9 +336,6 @@ a {
 }
 
 @media (max-width: 1064px) {
-  .navbar {
-    gap: 28rem;
-  }
   .choices-section {
     gap: 10rem;
   }
@@ -356,9 +355,6 @@ a {
   }
 }
 @media (max-width: 1024px) {
-  .navbar {
-    gap: 28rem;
-  }
   .big-image {
     width: 100%;
     height: 400px;
@@ -402,9 +398,6 @@ a {
 }
 
 @media (max-width: 912px) {
-  .navbar {
-    gap: 20rem;
-  }
   .circle-line {
     left: 38.6%;
     width: 65%;
@@ -447,9 +440,6 @@ a {
 }
 
 @media (max-width: 850px) {
-  .navbar {
-    gap: 18rem;
-  }
   .big-image {
     background-image: url(/assets/plan/tablet/image-hero-blackcup.jpg);
     background-position: center center;
@@ -518,11 +508,14 @@ a {
 }
 
 @media (max-width: 820px) {
-  .navbar {
-    gap: 15rem;
-  }
   .circle-horizontal {
     gap: 2rem;
+  }
+  .right-section {
+    margin-left: 2rem;
+  }
+  .arrow-down {
+    right: 2rem;
   }
   .summary-background {
     height: 30vh;
@@ -534,28 +527,13 @@ a {
   }
 }
 @media (max-width: 780px) {
-  .navbar {
-    gap: 13rem;
-  }
-  .circle-line {
-    left: 37.6%;
-    width: 68%;
-  }
-  .circle-horizontal {
-    gap: 2rem;
-  }
-  .circle-horizontal p {
-    max-width: 13rem;
-  }
-  .plan-link {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 680px) {
   .img-logo {
     position: absolute;
     left: 0;
+  }
+  .navbar {
+    margin-right: 0px;
+    margin-left: 0px;
   }
   .big-image {
     margin-top: 5rem;
@@ -588,6 +566,22 @@ a {
     margin: 3rem;
     text-align: center;
   }
+  .circle-line {
+    left: 37.6%;
+    width: 68%;
+  }
+  .circle-horizontal {
+    gap: 2rem;
+  }
+  .circle-horizontal p {
+    max-width: 13rem;
+  }
+  .plan-link {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 680px) {
   .circle-line,
   .circle {
     display: none;
@@ -679,7 +673,7 @@ a {
     text-align: center;
   }
   .plan-link {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .summary-background {
