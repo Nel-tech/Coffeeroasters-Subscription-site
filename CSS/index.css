@@ -682,6 +682,10 @@ a {
   .p {
     max-width: 18rem;
   }
+  .benefit-first {
+    width: 320px;
+    height: 340px;
+  }
   .options-background {
     margin-top: 50rem;
   }

@@ -569,7 +569,7 @@ a {
   }
   .summary-background {
     width: 100%;
-    height: 20vh;
+    height: 40vh;
     margin-left: 0%;
   }
 
@@ -592,12 +592,16 @@ a {
     display: block;
   }
   .background-footer {
-    height: 30vh;
+    height: 40vh;
   }
 }
 @media (max-width: 425px) {
+  .plan-link {
+    font-size: 25px;
+    max-width: 20rem;
+  }
   .summary-background {
-    height: 25vh;
+    height: 40vh;
   }
 }
 
