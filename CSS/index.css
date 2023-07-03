@@ -328,6 +328,11 @@ a {
 }
 
 /* Media Quries */
+@media (max-width: 2560px) {
+  .background-footer {
+    height: 10vh;
+  }
+}
 @media (max-width: 1024px) {
   .header-collect {
     font-size: 100px;
@@ -631,7 +636,7 @@ a {
     font-size: 1rem;
   }
   .background-footer {
-    height: 50vh;
+    height: 43vh;
   }
 }
 

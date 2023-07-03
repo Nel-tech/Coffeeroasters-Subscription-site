@@ -307,6 +307,15 @@ a {
   align-self: center;
   align-content: center;
 }
+
+@media (max-width: 2560px) {
+  .background-footer {
+    height: 10vh;
+  }
+  .summary-background {
+    height: 18vh;
+  }
+}
 @media (max-width: 1024px) {
   .circle-line {
     left: 38%;
@@ -451,8 +460,11 @@ a {
     padding-left: 1rem;
   }
   .summary-background {
-    height: 50vh;
+    height: 20vh;
     margin-left: 3%;
+  }
+  .background-footer {
+    height: 20vh;
   }
 }
 
@@ -557,7 +569,7 @@ a {
   }
   .summary-background {
     width: 100%;
-    height: 45vh;
+    height: 20vh;
     margin-left: 0%;
   }
 
@@ -580,12 +592,12 @@ a {
     display: block;
   }
   .background-footer {
-    height: 70vh;
+    height: 30vh;
   }
 }
 @media (max-width: 425px) {
   .summary-background {
-    height: 65vh;
+    height: 25vh;
   }
 }
 
@@ -593,11 +605,15 @@ a {
   .nav-link {
     font-size: 1rem;
   }
+  .plan-link {
+    font-size: 25px;
+    max-width: 20rem;
+  }
   .summary-background {
-    height: 40vh;
+    height: 42vh;
   }
   .background-footer {
-    height: 50vh;
+    height: 43vh;
   }
 }
 @media (max-width: 412px) {
@@ -624,11 +640,23 @@ a {
     margin-left: 0.5rem;
   }
   .summary-background {
-    height: 65vh;
+    height: 50vh;
   }
   .summary-sent p {
     font-size: 2rem;
     max-width: 350px;
+  }
+  .background-footer {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .summary-background {
+    height: 55vh;
+  }
+  .background-footer {
+    height: 50vh;
   }
 }
 

@@ -220,7 +220,11 @@ a {
 }
 
 /* Media qUERIES */
-
+@media (max-width: 2560px) {
+  .background-footer {
+    height: 10vh;
+  }
+}
 @media (max-width: 1024px) {
   .desktop-view {
     width: 26.875rem;
@@ -498,7 +502,7 @@ a {
     font-size: 1rem;
   }
   .background-footer {
-    height: 50vh;
+    height: 43vh;
   }
 }
 @media (max-width: 412px) {
