@@ -1,12 +1,14 @@
-<<<<<<< HEAD
-=======
+# <<<<<<< HEAD
+
 # Coffeeroasters-Subscription-site
+
 A front-end mentor challenge
 
->>>>>>> caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
+> > > > > > > caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
+
 # Frontend Mentor - Coffeeroasters subscription site solution
 
-This is a solution to the [Coffeeroasters subscription site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/coffeeroasters-subscription-site-5Fc26HVY6). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Coffeeroasters subscription site challenge on Frontend Mentor](https://coffeeroasters-subscription-site-iota.vercel.app/). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -38,19 +40,21 @@ Users should be able to:
 ### Links
 
 <<<<<<< HEAD
+
 - [Frontend Mentor - solution](https://www.frontendmentor.io/solutions/html-scss-vanilla-js-X-m36ak-n)
 - [Live Demo](https://coffeeroasters-subscription-site-zeta.vercel.app/)
 
 ## My process
 
 =======
-- 
+
+-
 - [Live Demo](https://coffeeroasters-subscription-site-iota.vercel.app/index.html)
 
 ## My process
 
+> > > > > > > caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
 
->>>>>>> caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
 ### Built with
 
 - Semantic HTML5 markup
@@ -64,31 +68,9 @@ Users should be able to:
 ### What I learned
 
 <<<<<<< HEAD
-- This was my first larger project - and although I took quite a bit of time to analise the design and plan out styles to make them reusable, I still came across some challenges. For example, I initially created separate styles for the how to section which appears on two of the pages, but in the final version, I used Sass `@extend` rule:
-=======
-- Implemented the accordion-menu and nav-bar toggler using the tenary operator. 
->>>>>>> caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
 
-```scss
-.how-to {
-    max-width: 80rem;
-    margin-bottom: 7.5rem;
-    padding: 0 $inner-pad-sm;
-    text-align: center;
-
-    /* more styles */
-
-.how-to--dark-bg {
-
-    @extend .how-to;
-    
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    border-radius: $border-radius;
-    background-color: $darkGreyBlue;
-```
-
-- I learnt how to use JavaScript modules - after I figured out all logic related to the subscription form, the JS file was very long and unreadable. I moved all functions into separate files.
+- # Implemented the accordion-menu and nav-bar toggler using the tenary operator.
+  > > > > > > > caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
 
 ### Continued development
 
@@ -96,18 +78,11 @@ In hindsight, I can see how not utilising a framework would make this multi-page
 
 I will now be focusing on learning JS frameworks.
 
-### Useful resources
-
-- [Resizing svg images with viewBox attribute](https://css-tricks.com/scale-svg/) - This helped me a lot when I struggled with the logo image overflowing the container on smaller mobile screens
-
 ## Author
+
 <<<<<<< HEAD
 
-- Frontend Mentor - [@AgataLiberska](https://www.frontendmentor.io/profile/AgataLiberska)
-- Twitter - [@AgataLiberska](https://www.twitter.com/AgataLiberska)
-=======
-- Frontend Mentor - [@Lee145](https://www.frontendmentor.io/profile/Favour)
-- Twitter - [@manlike_favour](https://www.twitter.com/Favour)
+- # Frontend Mentor - [@Lee145](https://www.frontendmentor.io/profile/Favour)
+- # Twitter - [@manlike_favour](https://www.twitter.com/Favour)
 
-
->>>>>>> caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
+> > > > > > > caf6e0cae8ae81f8591bf22f34ce30cb8950a2db
