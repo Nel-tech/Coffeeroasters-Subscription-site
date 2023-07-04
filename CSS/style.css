@@ -404,6 +404,9 @@ a {
   }
   .big-image {
     background-image: url(/assets/about/mobile/image-hero-whitecup.jpg);
+    text-align: center;
+    width: 90%;
+    height: 550px;
   }
   .header-paragraph {
     padding-top: 7rem;
@@ -421,13 +424,13 @@ a {
     text-align: center;
   }
   .header-paragraph p {
-    max-width: 300px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     color: white;
     padding-bottom: 1.5rem;
-    font-size: 16px;
-    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
   }
   .commitment {
     margin-top: 10rem;
@@ -463,13 +466,17 @@ a {
   .tablet-img {
     display: none;
   }
+  .exc-quality {
+    width: 90%;
+    height: 550px;
+  }
   .mobile-img {
     display: block;
     border-radius: 10px;
     width: 370px;
     position: absolute;
     top: -8rem;
-    left: 5rem;
+    left: 4rem;
   }
   .main-quarters {
     display: block;
@@ -488,13 +495,28 @@ a {
     display: block;
   }
   .background-footer {
-    height: 70vh;
+    height: 40vh;
   }
 }
 @media (max-width: 425px) {
+  .big-image {
+    margin-top: 5rem;
+    text-align: center;
+    width: 90%;
+    height: 600px;
+  }
+  .header-paragraph p {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-bottom: 1.5rem;
+    font-size: 20px;
+    line-height: 40px;
+  }
   .mobile-img {
     width: 330px;
-    left: 3rem;
+    left: 1.7rem;
   }
 }
 @media (max-width: 414px) {
@@ -507,20 +529,20 @@ a {
 }
 @media (max-width: 412px) {
   .mobile-img {
-    width: 23rem;
+    width: 18rem;
     left: 1.5rem;
   }
 }
 @media (max-width: 393px) {
   .mobile-img {
-    width: 20rem;
+    width: 15rem;
     left: 1.8rem;
   }
 }
 
 @media (max-width: 390px) {
   .mobile-img {
-    width: 20rem;
+    width: 14rem;
     left: 1.8rem;
   }
 }
@@ -537,22 +559,21 @@ a {
     max-width: 300px;
     font-size: 3rem;
   }
-  .mobile-img {
-    width: 20rem;
-    left: 1.7rem;
-  }
   .commitment p {
     max-width: 22rem;
   }
   .mobile-img {
-    width: 21.875rem;
-    left: 0.8rem;
+    width: 18rem;
+    left: 1.5rem;
+  }
+  h3 {
+    font-size: 30px;
   }
 }
 
 @media (max-width: 360px) {
   .mobile-img {
-    width: 20rem;
+    width: 18rem;
     left: 1.5rem;
   }
 }
@@ -582,8 +603,8 @@ a {
     max-width: 20rem;
   }
   .mobile-img {
-    width: 17.5rem;
-    left: 1.5rem;
+    width: 16rem;
+    left: 1rem;
     top: -3rem;
   }
   .p {

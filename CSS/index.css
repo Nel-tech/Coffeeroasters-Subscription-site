@@ -475,9 +475,6 @@ a {
     position: absolute;
     left: 0;
   }
-  .big-image {
-    margin-top: 5rem;
-  }
   .nav-list {
     display: block;
     position: absolute;
@@ -510,6 +507,8 @@ a {
   }
   .big-image {
     text-align: center;
+    width: 90%;
+    height: 550px;
     background-image: url(/assets/home/mobile/image-hero-coffeepress.jpg);
   }
   .header-paragraph {
@@ -530,7 +529,8 @@ a {
     margin-right: auto;
     color: white;
     padding-bottom: 1.5rem;
-    font-size: 16px;
+    font-size: 25px;
+    line-height: 40px;
   }
   .collects {
     display: block;
@@ -586,7 +586,8 @@ a {
     text-align: center;
   }
   .exc-benefit {
-    height: 750px;
+    width: 90%;
+    height: 800px;
   }
   .options-background {
     margin-top: 40rem;
@@ -622,10 +623,35 @@ a {
     display: block;
   }
   .background-footer {
-    height: 60vh;
+    height: 40vh;
   }
 }
 @media (max-width: 425px) {
+  .big-image {
+    margin-top: 5rem;
+    text-align: center;
+    width: 90%;
+    height: 600px;
+  }
+  .header-paragraph {
+    padding-top: 7rem;
+    padding-left: 0rem;
+  }
+  .header-paragraph h1 {
+    font-size: 50px;
+  }
+  .header-paragraph p {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-bottom: 1.5rem;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .circle-horizontal h2 {
+    font-size: 30px;
+  }
   .benefit-first {
     width: 360px;
     height: 340px;
@@ -658,8 +684,11 @@ a {
     font-size: 1.3rem;
   }
   .header-paragraph h1 {
-    max-width: 300px;
+    max-width: 350px;
     font-size: 3rem;
+  }
+  .benefit-first {
+    width: 300px;
   }
 }
 
@@ -670,7 +699,7 @@ a {
   }
   .header-paragraph h1 {
     max-width: 300px;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .header-collect {
     font-size: 40px;
@@ -683,8 +712,7 @@ a {
     max-width: 18rem;
   }
   .benefit-first {
-    width: 320px;
-    height: 340px;
+    width: 260px;
   }
   .options-background {
     margin-top: 50rem;

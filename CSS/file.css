@@ -313,7 +313,7 @@ a {
     height: 10vh;
   }
   .summary-background {
-    height: 18vh;
+    height: 35vh;
   }
 }
 @media (max-width: 1024px) {
@@ -460,11 +460,14 @@ a {
     padding-left: 1rem;
   }
   .summary-background {
-    height: 20vh;
-    margin-left: 3%;
+    width: 90%;
+    height: 40vh;
+    margin-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .background-footer {
-    height: 20vh;
+    height: 40vh;
   }
 }
 
@@ -507,20 +510,31 @@ a {
     text-align: center;
   }
   .big-image {
+    text-align: center;
+    width: 90%;
+    height: 550px;
     background-image: url(/assets/plan/mobile/image-hero-blackcup.jpg);
   }
   .header-paragraph {
     padding-left: 0rem;
     margin-left: auto;
     margin-right: auto;
-  }
-  .header-paragraph h1 {
-    font-size: 50px;
     text-align: center;
   }
+  .header-paragraph h1 {
+    max-width: 400px;
+    color: white;
+    padding-bottom: 1.5rem;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
   .header-paragraph p {
-    max-width: 350px;
-    font-size: 16px;
+    max-width: 400px;
+    font-size: 25px;
+    line-height: 40px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -568,9 +582,11 @@ a {
     font-size: 15px;
   }
   .summary-background {
-    width: 100%;
+    width: 90%;
     height: 40vh;
     margin-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .summary-sent p {
@@ -596,6 +612,28 @@ a {
   }
 }
 @media (max-width: 425px) {
+  .big-image {
+    margin-top: 5rem;
+    text-align: center;
+    width: 90%;
+    height: 600px;
+  }
+  .header-paragraph h1 {
+    max-width: 300px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .header-paragraph p {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-bottom: 1.5rem;
+    font-size: 20px;
+    line-height: 40px;
+  }
   .plan-link {
     font-size: 25px;
     max-width: 20rem;
@@ -624,6 +662,9 @@ a {
   .plan-link {
     font-size: 25px;
     max-width: 20rem;
+  }
+  .summary-background {
+    height: 45vh;
   }
 }
 @media (max-width: 375px) {
